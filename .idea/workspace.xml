@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ef4164f-43fd-46a5-914b-10f0254f5d02" name="Changes" comment="" />
+    <list default="true" id="7ef4164f-43fd-46a5-914b-10f0254f5d02" name="Changes" comment="version 1">
+      <change beforePath="$PROJECT_DIR$/Management/src/main/java/uz/hr/Management/config/ResourceServerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Management/src/main/java/uz/hr/Management/config/ResourceServerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Management/src/main/java/uz/hr/Management/controller/DirectorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Management/src/main/java/uz/hr/Management/controller/DirectorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Management/src/main/java/uz/hr/Management/service/Impl/DirectorServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Management/src/main/java/uz/hr/Management/service/Impl/DirectorServiceImpl.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,13 +35,18 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2T1h4vhOv97oJUvEagv7rAbeMOI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -51,25 +60,35 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/ilmna/Downloads/Telegram Desktop/Management/Management/src/main/java/uz/hr/Management",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/ilmna/Downloads/Telegram Desktop/Management",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "spring.configuration.checksum": "f78a62c8f9ae49478e6448f257877d1d",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="uz.hr.Management.repository" />
+      <recent name="uz.hr.Management.service" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ilmna\Downloads\Telegram Desktop\Management\Management\src\main\java\uz\hr\Management" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="uz.hr.Management.service.Impl" />
       <recent name="uz.hr.Management.repository" />
       <recent name="uz.hr.Management.service" />
       <recent name="uz.hr.Management.enums" />
       <recent name="uz.hr.Management.entity" />
-      <recent name="uz.hr.Management.dto" />
     </key>
   </component>
   <component name="RunManager">
@@ -91,7 +110,17 @@
       <updated>1690216306285</updated>
       <workItem from="1690216307812" duration="4834000" />
       <workItem from="1690339291324" duration="763000" />
+      <workItem from="1690439645787" duration="4276000" />
     </task>
+    <task id="LOCAL-00001" summary="version 1">
+      <option name="closed" value="true" />
+      <created>1690449223969</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1690449223970</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,5 +128,9 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="application.properties" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="version 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="version 1" />
   </component>
 </project>
