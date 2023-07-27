@@ -74,5 +74,5 @@ public class DirectorServiceImpl implements DirectorService {
         successDto.setSuccess(true);
         return successDto;
     }
-    // TODO: 7/26/2023 1.get director crud done, 2. get hr_manager done, 3. get user done  
+//   7/26/2023 1.get director crud done, 2. get hr_manager done, 3. get user done
 }

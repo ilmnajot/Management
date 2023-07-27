@@ -1,13 +1,10 @@
 package uz.hr.Management.controller;
-
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 import uz.hr.Management.dto.SuccessDto;
 import uz.hr.Management.dto.UserDto;
 import uz.hr.Management.dto.UserForm;
 import uz.hr.Management.service.DirectorService;
-
-import java.awt.desktop.UserSessionEvent;
 import java.util.List;
 
 @RequiredArgsConstructor
