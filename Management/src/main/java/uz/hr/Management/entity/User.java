@@ -2,12 +2,10 @@ package uz.hr.Management.entity;
 
 import lombok.*;
 import org.hibernate.annotations.ColumnDefault;
+import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 import uz.hr.Management.enums.UserRole;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.EnumType;
-import javax.persistence.Enumerated;
+import javax.persistence.*;
 
 @EqualsAndHashCode(callSuper = true)
 @NoArgsConstructor
@@ -15,6 +13,7 @@ import javax.persistence.Enumerated;
 @Builder
 @Entity(name = "users")
 @Data
+@EntityListeners(AuditingEntityListener.class)
 public class User extends BaseEntity {
     private String name;
     private String username;

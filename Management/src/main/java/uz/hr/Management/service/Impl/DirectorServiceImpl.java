@@ -21,14 +21,19 @@ public class DirectorServiceImpl implements DirectorService {
     private final UserRepository userRepository;
 
     public UserDto add(UserForm form) {
-        return UserDto.toDto(userRepository.save(User.builder()
-                .name(form.getName())
-                .username(form.getUsername())
-                .email(form.getEmail())
-                .confirmed(true)
-                .role(UserRole.DIRECTOR)
-                .phoneNumber(form.getPhoneNumber())
-                .build()));
+        boolean existsByUsername = userRepository.existsByUsername(form.getEmail());
+        if (existsByUsername) {
+            return UserDto.toDto(userRepository.save(User.builder()
+                    .name(form.getName())
+                    .username(form.getUsername())
+                    .email(form.getEmail())
+                    .confirmed(true)
+                    .role(UserRole.DIRECTOR)
+                    .phoneNumber(form.getPhoneNumber())
+                    .build()));
+        } else {
+            throw new AppException("username is already exists ");
+        }
     }
 
     public UserDto update(UserForm form, Long id) {
@@ -46,8 +51,8 @@ public class DirectorServiceImpl implements DirectorService {
 
     public UserDto getOne(Long id) {
         Optional<User> optionalUser = userRepository.findById(id);
-        if (optionalUser.isEmpty()){
-                throw new AppException(String.format("there is no user with  "+id));
+        if (optionalUser.isEmpty()) {
+            throw new AppException(String.format("there is no user with  " + id));
         }
         User user = optionalUser.get();
         return UserDto.toDto(user);
@@ -58,14 +63,14 @@ public class DirectorServiceImpl implements DirectorService {
         List<UserDto> userDtoList = new ArrayList<>();
         for (User user : userList) {
             UserDto userDto = UserDto.toDto(user);
-        userDtoList.add(userDto);
+            userDtoList.add(userDto);
         }
         return userDtoList;
     }
 
     public SuccessDto delete(Long id) {
         Optional<User> userOptional = userRepository.findById(id);
-        if (userOptional.isEmpty()){
+        if (userOptional.isEmpty()) {
             throw new AppException(String.format("there is no user with id" + id));
         }
         userRepository.deleteById(id);

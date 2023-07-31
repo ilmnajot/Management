@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ef4164f-43fd-46a5-914b-10f0254f5d02" name="Changes" comment="version 1">
-      <change beforePath="$PROJECT_DIR$/Management/src/main/java/uz/hr/Management/config/ResourceServerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Management/src/main/java/uz/hr/Management/config/ResourceServerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Management/src/main/java/uz/hr/Management/controller/DirectorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Management/src/main/java/uz/hr/Management/controller/DirectorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Management/src/main/java/uz/hr/Management/config/AuditConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Management/src/main/java/uz/hr/Management/config/SecurityAuditAwareImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9caabee5-c088-4c65-a119-9e546614fe6a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9caabee5-c088-4c65-a119-9e546614fe6a.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Management/src/main/java/uz/hr/Management/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Management/src/main/java/uz/hr/Management/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Management/src/main/java/uz/hr/Management/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/Management/src/main/java/uz/hr/Management/entity/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Management/src/main/java/uz/hr/Management/service/Impl/DirectorServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Management/src/main/java/uz/hr/Management/service/Impl/DirectorServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Management/src/main/java/uz/hr/Management/service/Impl/ManagerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Management/src/main/java/uz/hr/Management/service/Impl/ManagerServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,36 +56,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/ilmna/Downloads/Telegram Desktop/Management",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "spring.configuration.checksum": "f78a62c8f9ae49478e6448f257877d1d",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ilmna/Downloads/Telegram Desktop/Management/Management/src/main/java/uz/hr/Management/config&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;f78a62c8f9ae49478e6448f257877d1d&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="uz.hr.Management.repository" />
       <recent name="uz.hr.Management.service" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ilmna\Downloads\Telegram Desktop\Management\Management\src\main\java\uz\hr\Management\config" />
       <recent name="C:\Users\ilmna\Downloads\Telegram Desktop\Management\Management\src\main\java\uz\hr\Management" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -110,7 +119,9 @@
       <updated>1690216306285</updated>
       <workItem from="1690216307812" duration="4834000" />
       <workItem from="1690339291324" duration="763000" />
-      <workItem from="1690439645787" duration="4276000" />
+      <workItem from="1690439645787" duration="4594000" />
+      <workItem from="1690474836149" duration="782000" />
+      <workItem from="1690728695694" duration="2746000" />
     </task>
     <task id="LOCAL-00001" summary="version 1">
       <option name="closed" value="true" />
@@ -120,7 +131,31 @@
       <option name="project" value="LOCAL" />
       <updated>1690449223970</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="version 1">
+      <option name="closed" value="true" />
+      <created>1690449483616</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1690449483616</updated>
+    </task>
+    <task id="LOCAL-00003" summary="version 1">
+      <option name="closed" value="true" />
+      <created>1690449495677</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1690449495677</updated>
+    </task>
+    <task id="LOCAL-00004" summary="version 1">
+      <option name="closed" value="true" />
+      <created>1690449609071</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1690449609071</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
