@@ -4,15 +4,39 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ef4164f-43fd-46a5-914b-10f0254f5d02" name="Changes" comment="version 1">
-      <change afterPath="$PROJECT_DIR$/Management/src/main/java/uz/hr/Management/config/AuditConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Management/src/main/java/uz/hr/Management/config/SecurityAuditAwareImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9caabee5-c088-4c65-a119-9e546614fe6a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9caabee5-c088-4c65-a119-9e546614fe6a.xml" afterDir="false" />
+    <list default="true" id="7ef4164f-43fd-46a5-914b-10f0254f5d02" name="Changes" comment="version 2">
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Management.Management.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Management/src/main/java/uz/hr/Management/config/MailConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Management/src/main/java/uz/hr/Management/dto/ConfirmDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Management/src/main/java/uz/hr/Management/service/Impl/MailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Management.Management.main~1.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Management/src/main/java/uz/hr/Management/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Management/src/main/java/uz/hr/Management/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Management/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Management/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Management/src/main/java/uz/hr/Management/controller/DirectorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Management/src/main/java/uz/hr/Management/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Management/src/main/java/uz/hr/Management/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/Management/src/main/java/uz/hr/Management/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Management/src/main/java/uz/hr/Management/service/Impl/DirectorServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Management/src/main/java/uz/hr/Management/service/Impl/DirectorServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Management/src/main/java/uz/hr/Management/service/Impl/ManagerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Management/src/main/java/uz/hr/Management/service/Impl/ManagerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Management/src/main/java/uz/hr/Management/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Management/src/main/java/uz/hr/Management/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Management/src/main/java/uz/hr/Management/service/DirectorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Management/src/main/java/uz/hr/Management/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Management/src/main/java/uz/hr/Management/service/Impl/DirectorServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Management/src/main/java/uz/hr/Management/service/Impl/UserServiceImpl.java" afterDir="false" />
+    </list>
+    <list id="470d474b-e8f4-43fe-86ab-7e3e515a841f" name="Changes by JAVOHIR" comment="">
+      <change beforePath="$PROJECT_DIR$/Management/src/main/java/uz/hr/Management/ManagementApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Management/src/main/java/uz/hr/Management/ManagementApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Management/src/main/java/uz/hr/Management/config/AuditConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Management/src/main/java/uz/hr/Management/config/AuditConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Management/src/main/java/uz/hr/Management/config/ResourceServerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Management/src/main/java/uz/hr/Management/config/ResourceServerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Management/src/main/java/uz/hr/Management/config/SecurityAuditAwareImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Management/src/main/java/uz/hr/Management/controller/DirectorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Management/src/main/java/uz/hr/Management/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Management/src/main/java/uz/hr/Management/controller/ManagerController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Management/src/main/java/uz/hr/Management/entity/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Management/src/main/java/uz/hr/Management/entity/BaseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Management/src/main/java/uz/hr/Management/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/Management/src/main/java/uz/hr/Management/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Management/src/main/java/uz/hr/Management/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Management/src/main/java/uz/hr/Management/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Management/src/main/java/uz/hr/Management/service/CustomUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Management/src/main/java/uz/hr/Management/service/CustomUserDetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Management/src/main/java/uz/hr/Management/service/DirectorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Management/src/main/java/uz/hr/Management/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Management/src/main/java/uz/hr/Management/service/Impl/DirectorServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Management/src/main/java/uz/hr/Management/service/Impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Management/src/main/java/uz/hr/Management/service/Impl/ManagerServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Management/src/main/java/uz/hr/Management/service/ManagerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Management/src/main/java/uz/hr/Management/service/db/InItDb.java" beforeDir="false" afterPath="$PROJECT_DIR$/Management/src/main/java/uz/hr/Management/service/db/InItDb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Management/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Management/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +53,12 @@
       <state>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Management" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -39,19 +68,81 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/Management/src/main/java/uz/hr/Management/controller/UserController.java">
+      <ranges>
+        <range start1="1" end1="1" start2="1" end2="2" changelist="7ef4164f-43fd-46a5-914b-10f0254f5d02" />
+        <range start1="3" end1="3" start2="4" end2="5" changelist="470d474b-e8f4-43fe-86ab-7e3e515a841f" />
+        <range start1="6" end1="7" start2="8" end2="10" changelist="470d474b-e8f4-43fe-86ab-7e3e515a841f" />
+        <range start1="11" end1="13" start2="14" end2="16" changelist="470d474b-e8f4-43fe-86ab-7e3e515a841f" />
+        <range start1="14" end1="15" start2="17" end2="18" changelist="470d474b-e8f4-43fe-86ab-7e3e515a841f" />
+        <range start1="16" end1="17" start2="19" end2="20" changelist="470d474b-e8f4-43fe-86ab-7e3e515a841f" />
+        <range start1="18" end1="19" start2="21" end2="22" changelist="470d474b-e8f4-43fe-86ab-7e3e515a841f" />
+        <range start1="20" end1="20" start2="23" end2="43" changelist="470d474b-e8f4-43fe-86ab-7e3e515a841f" />
+        <range start1="23" end1="24" start2="46" end2="47" changelist="470d474b-e8f4-43fe-86ab-7e3e515a841f" />
+        <range start1="28" end1="29" start2="51" end2="52" changelist="470d474b-e8f4-43fe-86ab-7e3e515a841f" />
+        <range start1="33" end1="34" start2="56" end2="57" changelist="470d474b-e8f4-43fe-86ab-7e3e515a841f" />
+        <range start1="35" end1="35" start2="58" end2="59" changelist="7ef4164f-43fd-46a5-914b-10f0254f5d02" />
+        <range start1="36" end1="38" start2="60" end2="62" changelist="7ef4164f-43fd-46a5-914b-10f0254f5d02" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/Management/src/main/java/uz/hr/Management/entity/User.java">
+      <ranges>
+        <range start1="4" end1="5" start2="4" end2="4" changelist="470d474b-e8f4-43fe-86ab-7e3e515a841f" />
+        <range start1="7" end1="8" start2="6" end2="10" changelist="470d474b-e8f4-43fe-86ab-7e3e515a841f" />
+        <range start1="15" end1="16" start2="17" end2="17" changelist="7ef4164f-43fd-46a5-914b-10f0254f5d02" />
+        <range start1="27" end1="27" start2="28" end2="30" changelist="470d474b-e8f4-43fe-86ab-7e3e515a841f" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/Management/src/main/java/uz/hr/Management/repository/UserRepository.java">
+      <ranges>
+        <range start1="11" end1="12" start2="11" end2="14" changelist="470d474b-e8f4-43fe-86ab-7e3e515a841f" />
+        <range start1="13" end1="14" start2="15" end2="16" changelist="470d474b-e8f4-43fe-86ab-7e3e515a841f" />
+        <range start1="15" end1="16" start2="17" end2="21" changelist="470d474b-e8f4-43fe-86ab-7e3e515a841f" />
+        <range start1="18" end1="19" start2="23" end2="24" changelist="7ef4164f-43fd-46a5-914b-10f0254f5d02" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/Management/src/main/java/uz/hr/Management/service/Impl/UserServiceImpl.java">
+      <ranges>
+        <range start1="3" end1="3" start2="3" end2="5" changelist="470d474b-e8f4-43fe-86ab-7e3e515a841f" />
+        <range start1="4" end1="4" start2="6" end2="7" changelist="7ef4164f-43fd-46a5-914b-10f0254f5d02" />
+        <range start1="11" end1="12" start2="14" end2="15" changelist="470d474b-e8f4-43fe-86ab-7e3e515a841f" />
+        <range start1="16" end1="16" start2="19" end2="20" changelist="470d474b-e8f4-43fe-86ab-7e3e515a841f" />
+        <range start1="19" end1="20" start2="23" end2="24" changelist="470d474b-e8f4-43fe-86ab-7e3e515a841f" />
+        <range start1="21" end1="21" start2="25" end2="27" changelist="470d474b-e8f4-43fe-86ab-7e3e515a841f" />
+        <range start1="22" end1="25" start2="28" end2="35" changelist="470d474b-e8f4-43fe-86ab-7e3e515a841f" />
+        <range start1="28" end1="28" start2="38" end2="39" changelist="470d474b-e8f4-43fe-86ab-7e3e515a841f" />
+        <range start1="34" end1="35" start2="45" end2="46" changelist="470d474b-e8f4-43fe-86ab-7e3e515a841f" />
+        <range start1="38" end1="38" start2="49" end2="98" changelist="7ef4164f-43fd-46a5-914b-10f0254f5d02" />
+        <range start1="75" end1="75" start2="135" end2="137" changelist="470d474b-e8f4-43fe-86ab-7e3e515a841f" />
+        <range start1="81" end1="82" start2="143" end2="155" changelist="470d474b-e8f4-43fe-86ab-7e3e515a841f" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/Management/src/main/java/uz/hr/Management/service/UserService.java">
+      <ranges>
+        <range start1="2" end1="2" start2="2" end2="3" changelist="470d474b-e8f4-43fe-86ab-7e3e515a841f" />
+        <range start1="8" end1="10" start2="9" end2="20" changelist="7ef4164f-43fd-46a5-914b-10f0254f5d02" />
+        <range start1="11" end1="11" start2="21" end2="22" changelist="7ef4164f-43fd-46a5-914b-10f0254f5d02" />
+        <range start1="12" end1="12" start2="23" end2="24" changelist="7ef4164f-43fd-46a5-914b-10f0254f5d02" />
+        <range start1="13" end1="13" start2="25" end2="26" changelist="7ef4164f-43fd-46a5-914b-10f0254f5d02" />
+      </ranges>
+    </file>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2T1h4vhOv97oJUvEagv7rAbeMOI" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -102,7 +193,7 @@
   </component>
   <component name="RunManager">
     <configuration name="ManagementApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="Management.Management.main~1" />
+      <module name="Management.Management.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="uz.hr.Management.ManagementApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -122,6 +213,9 @@
       <workItem from="1690439645787" duration="4594000" />
       <workItem from="1690474836149" duration="782000" />
       <workItem from="1690728695694" duration="2746000" />
+      <workItem from="1690767001026" duration="401000" />
+      <workItem from="1690989294561" duration="3217000" />
+      <workItem from="1690992539296" duration="13556000" />
     </task>
     <task id="LOCAL-00001" summary="version 1">
       <option name="closed" value="true" />
@@ -155,7 +249,15 @@
       <option name="project" value="LOCAL" />
       <updated>1690449609071</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="version 2">
+      <option name="closed" value="true" />
+      <created>1690767056148</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1690767056148</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,6 +268,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="version 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="version 1" />
+    <MESSAGE value="version 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="version 2" />
   </component>
 </project>

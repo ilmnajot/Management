@@ -6,10 +6,22 @@ import uz.hr.Management.dto.UserForm;
 
 import java.util.List;
 
-public interface DirectorService {
-    UserDto add(UserForm form);
+public interface UserService {
+    UserDto addDirector(UserForm form);
+
+    UserDto addManager(UserForm form);
+
+    UserDto addUser(UserForm form);
+
+    ConfirmDto confirmLink(String hash);
+
+    SuccessDto confirm(ConfirmDto dto);
+
     UserDto update(UserForm form, Long id);
+
     UserDto getOne(Long id);
+
     List<UserDto> getAll();
+
     SuccessDto delete(Long id);
 }

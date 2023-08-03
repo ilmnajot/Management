@@ -2,6 +2,7 @@ package uz.hr.Management.service.Impl;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
+import uz.hr.Management.dto.ConfirmDto;
 import uz.hr.Management.dto.SuccessDto;
 import uz.hr.Management.dto.UserDto;
 import uz.hr.Management.dto.UserForm;
@@ -35,6 +36,55 @@ public class DirectorServiceImpl implements DirectorService {
             throw new AppException("username is already exists ");
         }
     }
+
+    @Override
+    public UserDto addManager(UserForm form) {
+        if (userRepository.existsByEmailAndDeletedFalse(form.getEmail())) {
+            throw new AppException("email is already exists: " + form.getEmail());
+        }
+        String hash = passwordEncoder.encode(form.getEmail() + hashSecret);
+        String link = url + hash;
+        mailService.sendMail(form.getEmail(),link);
+        return addUserDb(form, UserRole.HR_MANAGER, hash);
+    }
+
+    @Override
+    public UserDto addUser(UserForm form) {
+        if (userRepository.existsByEmailAndDeletedFalse(form.getEmail())) {
+            throw new AppException("email is already exists: " + form.getEmail());
+        }
+        String hash = passwordEncoder.encode(form.getEmail() + hashSecret);
+        String link = url + hash;
+        mailService.sendMail(form.getEmail(), link);
+        return addUserDb(form, UserRole.USER, hash);
+    }
+
+    @Override
+    public ConfirmDto confirmLink(String hash) {
+        User user = userRepository.findByConfirmHashAndDeletedFalse(hash);
+        if (user == null) {
+            throw new AppException("Siz adashdingiz. Directorga yoki Managerga uchrang!");
+        }
+        String confirmCode = UUID.randomUUID().toString();
+        user.setConfirmCode(confirmCode);
+        return ConfirmDto.builder()
+                .code(confirmCode)
+                .build();
+    }
+
+    @Override
+    public SuccessDto confirm(ConfirmDto dto) {
+        User user = userRepository.findByConfirmCodeAndDeletedFalse(dto.getCode());
+        if (user == null) {
+            throw new AppException("Siz adashdingiz. Directorga yoki Managerga uchrang!");
+        }
+        user.setPassword(passwordEncoder.encode(dto.getPassword()));
+        user.setConfirmed(true);
+        return SuccessDto.builder()
+                .status("confirmed")
+                .build();
+    }
+
 
     public UserDto update(UserForm form, Long id) {
         Optional<User> userOptional = userRepository.findById(id);

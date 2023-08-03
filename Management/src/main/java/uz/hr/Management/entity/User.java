@@ -13,7 +13,6 @@ import javax.persistence.*;
 @Builder
 @Entity(name = "users")
 @Data
-@EntityListeners(AuditingEntityListener.class)
 public class User extends BaseEntity {
     private String name;
     private String username;

@@ -1,4 +1,5 @@
 package uz.hr.Management.controller;
+
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 import uz.hr.Management.dto.SuccessDto;
@@ -33,8 +34,9 @@ public class DirectorController {
     public UserDto edit(@PathVariable Long id, @RequestBody UserForm form) {
         return directorService.update(form, id);
     }
+
     @DeleteMapping("/{id}")
-    public SuccessDto delete(@PathVariable Long id){
-        return directorService.delete(id);
+    public SuccessDto delete(@PathVariable Long id) {
+        return userService.delete(id);
     }
 }
